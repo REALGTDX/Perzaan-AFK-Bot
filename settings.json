@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "ABCDEFGHILOVEYOU.aternos.me",
-    "port": 15028,
+    "port": 25565,
     "version": "1.21.3"
   },
   "position": {
@@ -18,74 +18,66 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "Perzuu"
+      "enabled": false,
+      "password": ""
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
-      "repeat-delay": 500,
+      "repeat": false,
+      "repeat-delay": 10000,
       "messages": [
         "I'm a regular player",
-        "Subscribe to REALGTDX!",
-        "I like to play Minecraft!"
+        "I like Minecraft"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
+    "auto-reconnect-delay": 5000,
     "max-reconnect-delay": 20000,
     "periodic-rejoin": {
-      "enabled": true,
-      "min-interval": 20,
-      "max-interval": 60
+      "enabled": false
     }
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "radius": 2,
+      "speed": 5000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 6000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 12000
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
-    "beds": true,
+    "avoidMobs": false,
+    "combat": false,
+    "beds": false,
     "chat": true,
-    "console-commands": true
+    "console-commands": false
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
-    "enabled": true,
-    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
+    "enabled": false,
+    "webhookUrl": ""
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
